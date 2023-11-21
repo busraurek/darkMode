@@ -24,3 +24,25 @@
 @import "@ionic/angular/css/text-alignment.css";
 @import "@ionic/angular/css/text-transformation.css";
 @import "@ionic/angular/css/flex-utils.css";
+
+:host {
+    ion-content {
+      --ion-background-color: #fff;
+     color: #232323;
+    }
+  }
+  
+  .dark {
+    :host {
+      * {
+        color: #fff ;
+      }
+      ion-content {
+        --ion-background-color: #232323;
+      }
+      ion-card {
+        background: #333333;
+      }
+    }
+  }
+  

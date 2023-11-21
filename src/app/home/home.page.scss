@@ -1,0 +1,27 @@
+
+:host {
+  ion-content {
+    --ion-background-color: #fff;
+   color: #232323;
+  }
+}
+
+.dark {
+  :host {
+  
+    ion-content {
+      --ion-background-color: #050a2b;
+    }
+    ion-card {
+      background: #04083f;
+      color: #fff;
+      ion-card-header{
+        color: #fff;
+      }
+    }
+  }
+}
+
+ion-card{
+  border-radius: 20px;
+}
